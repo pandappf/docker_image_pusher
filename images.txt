@@ -1,6 +1,7 @@
-nginx
-#支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
-#支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+# 官方nginx latest镜像
+nginx:latest
+# mysql 8最新版
+mysql:latest
+# 如果是ghcr.io上的镜像（GitHub容器仓库镜像，你需求的核心）
+ghcr.io/library/nginx:latest
+ghcr.io/library/mysql:latest
